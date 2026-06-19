@@ -16,3 +16,7 @@ def home():
 def about():
     return {"message": "A fully functional API to manage patients records"}
 
+@app.get("/view_patients")
+def view_patients():
+    data = load_data()
+    return data
