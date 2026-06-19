@@ -1,0 +1,52 @@
+[
+    {
+      "name": "Rahul Sharma",
+      "city": "Delhi",
+      "age": 28,
+      "gender": "Male",
+      "height": 1.75,
+      "weight": 68,
+      "bmi": 22.2,
+      "verdict": "Normal Weight"
+    },
+    {
+      "name": "Priya Verma",
+      "city": "Mumbai",
+      "age": 34,
+      "gender": "Female",
+      "height": 1.62,
+      "weight": 78,
+      "bmi": 29.7,
+      "verdict": "Overweight"
+    },
+    {
+      "name": "Amit Singh",
+      "city": "Lucknow",
+      "age": 45,
+      "gender": "Male",
+      "height": 1.70,
+      "weight": 95,
+      "bmi": 32.9,
+      "verdict": "Obese"
+    },
+    {
+      "name": "Sneha Gupta",
+      "city": "Bengaluru",
+      "age": 22,
+      "gender": "Female",
+      "height": 1.68,
+      "weight": 50,
+      "bmi": 17.7,
+      "verdict": "Underweight"
+    },
+    {
+      "name": "Vikram Patel",
+      "city": "Ahmedabad",
+      "age": 31,
+      "gender": "Male",
+      "height": 1.80,
+      "weight": 82,
+      "bmi": 25.3,
+      "verdict": "Overweight"
+    }
+  ]
