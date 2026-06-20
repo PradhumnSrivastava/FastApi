@@ -26,12 +26,12 @@ def view_patients():
     return data
 
 
-@app.get("/patient/{patient_name}")
-def get_patient(patient_name: str):
+@app.get("/patient/{patient_id}")
+def get_patient(patient_id: str):
     data = load_data()
 
     for patient in data:
-        if patient["name"].lower() == patient_name.lower():
+        if patient["patient_id"] == patient_id:
             return patient
 
     return {"error": "Patient not found"}
