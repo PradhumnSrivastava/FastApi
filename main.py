@@ -27,7 +27,7 @@ def view_patients():
 
 
 @app.get("/patient/{patient_id}")
-def get_patient(patient_id: int = Path(...,description="The ID of the patient to retrieve")):
+def get_patient(patient_id: int = Path(...,description="The ID of the patient to retrieve",example=1)):
     data = load_data()
 
     for patient in data:
